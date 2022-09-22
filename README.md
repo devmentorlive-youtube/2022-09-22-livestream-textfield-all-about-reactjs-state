@@ -1,46 +1,10 @@
-# DevmentorLive NextJS Starter Template
+# Everything you should know about basic React state, but dont! (as a TextField Component)
 
-## Getting Started
+Learn everything you should have learned early on in React, about how to structure components and handle state, using a textfield and json objects as a live-in example!
 
-To create an app using this starter
+Except I know that isnt how you learned, so let's fix that shit right now.
 
-```bash
-npx create-next-app your-app-name -e https://github.com/devmentorlive-youtube/next-tailwind-starter
-```
+Enjoy the code from this long form content, ans expect the medium form content soon!
 
-## This template uses [TailwindCSS](https://tailwindcss.com/)!
-
-## To run your server (development)
-
-```
-cd your-app-name
-npm run dev
-```
-
-## Folder structure
-
-```bash
-src
-├── features
-├── pages
-│   └── index.jsx
-├── ui
-└── index.jsx
-```
-
-This app uses a modified/simplified version of [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/), better suited for modern web development.
-
-
-### /ui
-
-This folder is for your "lego blocks", single purpose React components that can be combined together to make more complicated components, known as Features
-
-
-### /features
-
-This folder is for more complex components, or features. Features are created by composing many UI components and usually, state
-
-
-### /pages
-
-This folder is for navigable components. A router automagically creates urls for anything in this folder. To create a page, combine features and ui components and put them in a component in this page. Typically state is managed in the feature, and any props that come from the server are passed through pages via the return object from getServerSideProps. Those props are then passed down into features as props, or put into a context.
+Watch the video here!
+https://bit.ly/3BD2rjV
